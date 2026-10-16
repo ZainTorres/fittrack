@@ -1,0 +1,6 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+body{padding-bottom:env(safe-area-inset-bottom);-webkit-tap-highlight-color:transparent}
+input,select{background:#18181b;border:1px solid #3f3f46;border-radius:.75rem;padding:.6rem;color:#fff;width:100%}
+input:focus,select:focus{outline:2px solid #a3e635}
+.card{background:#18181b;border:1px solid #27272a;border-radius:1rem;padding:1rem}
+.btn{background:#a3e635;color:#09090b;font-weight:700;border-radius:.75rem;padding:.7rem 1rem}
